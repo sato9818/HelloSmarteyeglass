@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright (c) 2011, Sony Mobile Communications Inc.
 Copyright (c) 2014, Sony Corporation
 
@@ -60,7 +60,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-/*hello*/
 
 /**
  * The Hello World activity provides a button on the phone that starts
