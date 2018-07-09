@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright (c) 2011, Sony Mobile Communications Inc.
 Copyright (c) 2014, Sony Corporation
 
@@ -58,7 +58,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.annotation.NonNull;
 import android.widget.EditText;
 import android.widget.TextView;
-
 
 
 
