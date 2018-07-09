@@ -1,0 +1,290 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:1-80:12
+MERGED from [:SmartEyeglassAPI] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartEyeglassAPI/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:SmartExtensionUtils] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionUtils/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:SmartExtensionAPI] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionAPI/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/476a6c53dc02c12711b4723399620325/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/232a97f29f59d9d5e0152b63087b31eb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/0a79560e438cec1f1d74658d7f06317a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0af699e4caa6415db22f94083251aa8b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/2272947742b20982dc5c560c1550a3bf/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/dd9fa107615b592d0740de152b6356af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4a65f8d0b5eedc46b2a992af6197b267/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/20558962c87fa0a7e730904725fa070b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cab0dc73113bc4bc9630f7343e982fae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6f0f28303e0fdd27c697af6e3e6102e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/90a9b61ebb4f581b9bd8ddc19ac609b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/16bcecc8cd581dc46e4c954d03065cc4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/75e4ca10a10582c7767c70a6e935b902/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/K/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/49f66bce3852a8ca067b8517ee78c75e/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2660a64b0ae004ea8f7ef436c90f1ea0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/da475ec4da2c13470e806c9d19ea93b3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/88107a7706ec4bc93e2f47fb36915e11/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cb4c1850af21688bf1773d25dc50a7b1/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:3:5-66
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:8:22-78
+uses-sdk
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:10:5-12:41
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:10:5-12:41
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:10:5-12:41
+MERGED from [:SmartEyeglassAPI] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartEyeglassAPI/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:SmartEyeglassAPI] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartEyeglassAPI/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:SmartExtensionUtils] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionUtils/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:SmartExtensionUtils] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionUtils/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:SmartExtensionAPI] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionAPI/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:SmartExtensionAPI] /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionAPI/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/476a6c53dc02c12711b4723399620325/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/476a6c53dc02c12711b4723399620325/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/232a97f29f59d9d5e0152b63087b31eb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/232a97f29f59d9d5e0152b63087b31eb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/0a79560e438cec1f1d74658d7f06317a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/0a79560e438cec1f1d74658d7f06317a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0af699e4caa6415db22f94083251aa8b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0af699e4caa6415db22f94083251aa8b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/2272947742b20982dc5c560c1550a3bf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/2272947742b20982dc5c560c1550a3bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/dd9fa107615b592d0740de152b6356af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/dd9fa107615b592d0740de152b6356af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4a65f8d0b5eedc46b2a992af6197b267/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4a65f8d0b5eedc46b2a992af6197b267/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/20558962c87fa0a7e730904725fa070b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/20558962c87fa0a7e730904725fa070b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cab0dc73113bc4bc9630f7343e982fae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cab0dc73113bc4bc9630f7343e982fae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6f0f28303e0fdd27c697af6e3e6102e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6f0f28303e0fdd27c697af6e3e6102e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/90a9b61ebb4f581b9bd8ddc19ac609b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/90a9b61ebb4f581b9bd8ddc19ac609b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/16bcecc8cd581dc46e4c954d03065cc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/16bcecc8cd581dc46e4c954d03065cc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/75e4ca10a10582c7767c70a6e935b902/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/K/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/75e4ca10a10582c7767c70a6e935b902/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/K/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/49f66bce3852a8ca067b8517ee78c75e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/K/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/49f66bce3852a8ca067b8517ee78c75e/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2660a64b0ae004ea8f7ef436c90f1ea0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2660a64b0ae004ea8f7ef436c90f1ea0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/da475ec4da2c13470e806c9d19ea93b3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/da475ec4da2c13470e806c9d19ea93b3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/88107a7706ec4bc93e2f47fb36915e11/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/88107a7706ec4bc93e2f47fb36915e11/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cb4c1850af21688bf1773d25dc50a7b1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/K/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cb4c1850af21688bf1773d25dc50a7b1/AndroidManifest.xml:20:5-44
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:10:5-12:41
+INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:10:5-12:41
+	android:targetSdkVersion
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:12:9-38
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:11:9-35
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml
+uses-permission#com.sonyericsson.extras.liveware.aef.EXTENSION_PERMISSION
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:14:5-97
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:14:22-94
+uses-permission#com.sony.smarteyeglass.permission.SMARTEYEGLASS
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:15:5-87
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:15:22-84
+application
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:17:5-78:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/232a97f29f59d9d5e0152b63087b31eb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/232a97f29f59d9d5e0152b63087b31eb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/0a79560e438cec1f1d74658d7f06317a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/0a79560e438cec1f1d74658d7f06317a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0af699e4caa6415db22f94083251aa8b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0af699e4caa6415db22f94083251aa8b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/2272947742b20982dc5c560c1550a3bf/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/2272947742b20982dc5c560c1550a3bf/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/K/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/49f66bce3852a8ca067b8517ee78c75e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/K/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/49f66bce3852a8ca067b8517ee78c75e/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:19:9-38
+	android:allowBackup
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:18:9-35
+meta-data#com.google.android.gms.version
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:25:9-27:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/2272947742b20982dc5c560c1550a3bf/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/2272947742b20982dc5c560c1550a3bf/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:27:13-66
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:26:13-58
+activity#com.example.sony.smarteyeglass.extension.helloworld.HelloWorldActivity
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:28:9-35:20
+	android:label
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:30:13-62
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:29:13-98
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:33:27-74
+activity#com.example.sony.smarteyeglass.extension.helloworld.LocationActivity
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:37:9-38:20
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:37:19-51
+service#com.example.sony.smarteyeglass.extension.helloworld.HelloWorldExtensionService
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:40:9-114
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:40:18-111
+service#com.sonyericsson.extras.liveware.extension.util.TunnelService
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:41:9-45:19
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:41:18-94
+intent-filter#action:name:com.sonyericsson.extras.liveware.aef.tunnel.action.BIND
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:42:13-44:29
+action#com.sonyericsson.extras.liveware.aef.tunnel.action.BIND
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:43:17-98
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:43:25-95
+receiver#com.example.sony.smarteyeglass.extension.helloworld.HelloWorldExtensionReceiver
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:47:9-77:20
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:47:19-113
+intent-filter#action:name:android.intent.action.LOCALE_CHANGED+action:name:com.sonyericsson.extras.aef.control.ERROR+action:name:com.sonyericsson.extras.aef.control.KEY_EVENT+action:name:com.sonyericsson.extras.aef.control.MENU_ITEM_SELECTED+action:name:com.sonyericsson.extras.aef.control.OBJECT_CLICK_EVENT+action:name:com.sonyericsson.extras.aef.control.PAUSE+action:name:com.sonyericsson.extras.aef.control.RESUME+action:name:com.sonyericsson.extras.aef.control.START+action:name:com.sonyericsson.extras.aef.control.STOP+action:name:com.sonyericsson.extras.aef.control.SWIPE_EVENT+action:name:com.sonyericsson.extras.aef.control.TOUCH_EVENT+action:name:com.sonyericsson.extras.aef.widget.ONTOUCH+action:name:com.sonyericsson.extras.aef.widget.START_REFRESH_IMAGE_REQUEST+action:name:com.sonyericsson.extras.aef.widget.STOP_REFRESH_IMAGE_REQUEST+action:name:com.sonyericsson.extras.liveware.aef.notification.REFRESH_REQUEST+action:name:com.sonyericsson.extras.liveware.aef.notification.VIEW_EVENT_DETAIL+action:name:com.sonyericsson.extras.liveware.aef.registration.ACCESSORY_CONNECTION+action:name:com.sonyericsson.extras.liveware.aef.registration.EXTENSION_REGISTER_REQUEST+action:name:com.sonyericsson.extras.liveware.extension.util.widget.scheduled.refresh
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:48:13-76:29
+action#com.sonyericsson.extras.liveware.aef.registration.EXTENSION_REGISTER_REQUEST
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:51:17-119
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:51:25-116
+action#com.sonyericsson.extras.liveware.aef.registration.ACCESSORY_CONNECTION
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:52:17-113
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:52:25-110
+action#android.intent.action.LOCALE_CHANGED
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:53:17-79
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:53:25-76
+action#com.sonyericsson.extras.liveware.aef.notification.VIEW_EVENT_DETAIL
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:56:17-110
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:56:25-107
+action#com.sonyericsson.extras.liveware.aef.notification.REFRESH_REQUEST
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:57:17-108
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:57:25-105
+action#com.sonyericsson.extras.aef.widget.START_REFRESH_IMAGE_REQUEST
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:60:17-105
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:60:25-102
+action#com.sonyericsson.extras.aef.widget.STOP_REFRESH_IMAGE_REQUEST
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:61:17-104
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:61:25-101
+action#com.sonyericsson.extras.aef.widget.ONTOUCH
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:62:17-85
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:62:25-82
+action#com.sonyericsson.extras.liveware.extension.util.widget.scheduled.refresh
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:63:17-115
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:63:25-112
+action#com.sonyericsson.extras.aef.control.START
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:66:17-84
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:66:25-81
+action#com.sonyericsson.extras.aef.control.STOP
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:67:17-83
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:67:25-80
+action#com.sonyericsson.extras.aef.control.PAUSE
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:68:17-84
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:68:25-81
+action#com.sonyericsson.extras.aef.control.RESUME
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:69:17-85
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:69:25-82
+action#com.sonyericsson.extras.aef.control.ERROR
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:70:17-84
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:70:25-81
+action#com.sonyericsson.extras.aef.control.KEY_EVENT
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:71:17-88
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:71:25-85
+action#com.sonyericsson.extras.aef.control.TOUCH_EVENT
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:72:17-90
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:72:25-87
+action#com.sonyericsson.extras.aef.control.SWIPE_EVENT
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:73:25-87
+action#com.sonyericsson.extras.aef.control.OBJECT_CLICK_EVENT
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:74:17-97
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:74:25-94
+action#com.sonyericsson.extras.aef.control.MENU_ITEM_SELECTED
+ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:75:17-97
+	android:name
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:75:25-94
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/75feb8f49991e00c7b0eed3ff1e36c8e/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/K/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4897df19ba24fbcea98ab0ae09d9331d/AndroidManifest.xml:24:13-79

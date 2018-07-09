@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dea3879f162c746fe053431439b874bb096f9338/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionUtils/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="631aefe59a99950e532488a7a134d0d9d69ab4af">
+        <dex dex="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/pre-dexed/debug/classes_37f0c1a8d23bcaf741816f3e44e66b1e047be4d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartEyeglassAPI/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d9b70c13c7e797c25fb723c8f59ce33435dd6f2">
+        <dex dex="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/pre-dexed/debug/classes_41f5bb630bff85cfe04ba81c0d1cc7132f3dbef0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e0a6e93b0286ab8f1aaccd4de56640400fef9713">
+        <dex dex="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8f7c3c05f347bb7dc9f93763d315fc7cb540e3e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/SmartExtensionAPI/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5ff882c1ef70e7a9d9cfbbc103a61ab123cc3f3f">
+        <dex dex="/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/pre-dexed/debug/classes_ebd5cd6086e811cff0644825e67bacf37440a626.jar" />
+    </item>
+
+</items>
