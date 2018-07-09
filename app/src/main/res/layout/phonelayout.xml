@@ -10,16 +10,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="目的地の緯度を入力"
+        android:hint="目的地を入力"
         android:inputType="numberDecimal" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="目的地の経度を入力"
-        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/text_view1"
