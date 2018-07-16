@@ -14,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.gms.common.api.ApiException;
@@ -39,6 +40,8 @@ import java.util.Date;
 public class LocationActivity extends Activity {
     public static String lati = "取得できません。";
     public static String longti = "";
+    public static String destination = "";
+
     // Fused Location Provider API.
     private FusedLocationProviderClient fusedLocationClient;
 
@@ -53,8 +56,9 @@ public class LocationActivity extends Activity {
     private Boolean requestingLocationUpdates;
     private static final int REQUEST_CHECK_SETTINGS = 0x1;
     private int priority = 0;
-    private TextView textView;
+
     private String textLog;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,6 +123,8 @@ public class LocationActivity extends Activity {
             double d2 = location.getLongitude();
             lati = BigDecimal.valueOf(d1).toPlainString();
             longti = BigDecimal.valueOf(d2).toPlainString();
+            EditText edittext = findViewById(R.id.editText);
+            destination = edittext.getText().toString();
 
 /*
             String fusedName[] = {
@@ -194,7 +200,7 @@ public class LocationActivity extends Activity {
         // 他に同様のアプリが短いインターバルでアップデートしていると
         // それに影響されインターバルが短くなることがあります。
         // 単位：msec
-        locationRequest.setInterval(60000);
+        locationRequest.setInterval(5000);
         // このインターバル時間は正確です。これより早いアップデートはしません。
         // 単位：msec
         locationRequest.setFastestInterval(5000);
@@ -304,8 +310,8 @@ public class LocationActivity extends Activity {
     }
 
     private void stopLocationUpdates() {
-        textLog += "onStop()\n";
-        textView.setText(textLog);
+        //textLog += "onStop()\n";
+        //textView.setText(textLog);
 
         if (!requestingLocationUpdates) {
             Log.d("debug", "stopLocationUpdates: " +
@@ -329,7 +335,7 @@ public class LocationActivity extends Activity {
     protected void onPause() {
         super.onPause();
         // バッテリー消費を鑑みLocation requestを止める
-        stopLocationUpdates();
+        //stopLocationUpdates();
     }
 
 }

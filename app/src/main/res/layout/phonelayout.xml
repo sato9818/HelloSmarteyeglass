@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="目的地を入力"
-        android:inputType="numberDecimal" />
+        android:inputType="text" />
 
 
     <TextView
