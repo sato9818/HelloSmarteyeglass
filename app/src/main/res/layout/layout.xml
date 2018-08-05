@@ -11,9 +11,8 @@
     <TextView
         android:id="@+id/btn_update_this1"
         android:layout_width="@dimen/smarteyeglass_control_width"
-        android:layout_height="wrap_content"
-        android:layout_margin="6px"
-        android:layout_weight="1"
+        android:layout_height="20dp"
+        android:layout_margin="2px"
         android:background="@android:color/black"
         android:clickable="true"
         android:gravity="center"
@@ -24,15 +23,28 @@
     <TextView
         android:id="@+id/btn_update_this2"
         android:layout_width="@dimen/smarteyeglass_control_width"
-        android:layout_height="wrap_content"
-        android:layout_margin="6px"
-        android:layout_weight="1"
+        android:layout_height="11dp"
+        android:layout_margin="2px"
         android:background="@android:color/black"
         android:clickable="true"
         android:gravity="center"
         android:text=""
         android:textColor="@android:color/white"
         android:textSize="@dimen/smarteyeglass_text_size_small" />
+
+    <TextView
+        android:id="@+id/btn_update_this3"
+        android:layout_width="@dimen/smarteyeglass_control_width"
+        android:layout_height="40dp"
+        android:layout_margin="2px"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/smarteyeglass_text_size_small" />
+
+
 
 
 </LinearLayout>

@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.gms.common.api.ApiException;
@@ -41,6 +42,7 @@ public class LocationActivity extends Activity {
     public static String lati = "取得できません。";
     public static String longti = "";
     public static String destination = "";
+    public static String str_spi = "";
 
     // Fused Location Provider API.
     private FusedLocationProviderClient fusedLocationClient;
@@ -125,6 +127,8 @@ public class LocationActivity extends Activity {
             longti = BigDecimal.valueOf(d2).toPlainString();
             EditText edittext = findViewById(R.id.editText);
             destination = edittext.getText().toString();
+            Spinner spinner=(Spinner)this.findViewById(R.id.planets_spinner);
+            str_spi = (String)spinner.getSelectedItem();
 
 /*
             String fusedName[] = {
@@ -203,7 +207,7 @@ public class LocationActivity extends Activity {
         locationRequest.setInterval(5000);
         // このインターバル時間は正確です。これより早いアップデートはしません。
         // 単位：msec
-        locationRequest.setFastestInterval(5000);
+        locationRequest.setFastestInterval(3000);
 
     }
 

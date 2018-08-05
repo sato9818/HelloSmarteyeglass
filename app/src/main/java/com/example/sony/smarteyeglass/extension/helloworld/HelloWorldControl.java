@@ -59,6 +59,10 @@ public final class HelloWorldControl extends ControlExtension {
     private Runnable r = null;
     private String distance = "";
     private String duration = "";
+    private String instruction1 = "";
+    private String instruction2 = "";
+    private String dura_inst = "";
+    private String address = "";
     /** Instance of the SmartEyeglass Control Utility class. */
     private final SmartEyeglassControlUtils utils;
 
@@ -138,8 +142,11 @@ public final class HelloWorldControl extends ControlExtension {
         HttpGetData atClass = new HttpGetData();
         // AsyncTaskの実行
         atClass.execute();
-        sendText(R.id.btn_update_this1, "距離：" + distance);
-        sendText(R.id.btn_update_this2, "時間：" + duration);
+        sendText(R.id.btn_update_this2, "距離：" + distance + ", " + "時間：" + duration);
+        sendText(R.id.btn_update_this1, "住所：" + address);
+        sendText(R.id.btn_update_this3,  instruction1 + "。 " + dura_inst + "先" + instruction2 + "。");
+        //sendText(R.id.btn_update_this3,  "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+        //sendText(R.id.btn_update_this4,  dura_inst + "先" + instruction2);
         //HelloWorldExtensionService.Object.sendMessageToActivity("Hello Activity!!!!!!!");
         //sendText(R.id.btn_update_this1, HelloWorldActivity.str1);
         //sendText(R.id.btn_update_this2, HelloWorldActivity.str2);
@@ -159,7 +166,7 @@ public final class HelloWorldControl extends ControlExtension {
                 */
                 //１秒毎に表示している。
                 sendText(R.id.btn_update_this1, "距離：" + distance);
-                sendText(R.id.btn_update_this2, "時間：" + duration);
+                sendText(R.id.btn_update_this1, "時間：" + duration);
                 handler.postDelayed(this, 1000);
             }
         };
@@ -186,6 +193,18 @@ public final class HelloWorldControl extends ControlExtension {
     }
     class HttpGetData extends AsyncTask<Void, Void, JSONObject> {
 
+        public String StrSpi(String str){
+            if(str.equals("徒歩")){
+                return "walking";
+            }else if(str.equals("自転車")){
+                return "driving";
+            }else if(str.equals("車")){
+                return "car";
+            }else{
+                return "walking";
+            }
+
+        }
         // doInBackgroundの事前準備処理（UIスレッド）
 
 
@@ -208,7 +227,7 @@ public final class HelloWorldControl extends ControlExtension {
                 String str1 = "takadanobaba";
                 String str2 = "waseda";
 
-                String str3 = "https://maps.googleapis.com/maps/api/directions/json?origin="+LocationActivity.lati+","+LocationActivity.longti+"&destination="+LocationActivity.destination+"&mode=walking&key=AIzaSyCxDuj0SIOyIdwR3H05HrG0u5AkKaHKM9Y";
+                String str3 = "https://maps.googleapis.com/maps/api/directions/json?origin="+LocationActivity.lati+","+LocationActivity.longti+"&destination="+LocationActivity.destination+"&mode="+StrSpi(LocationActivity.str_spi)+"&language=ja&key=AIzaSyCxDuj0SIOyIdwR3H05HrG0u5AkKaHKM9Y";
                 StringBuilder urlStrBuilder = new StringBuilder(str3/*"https://maps.googleapis.com/maps/api/directions/json?origin=takadanobaba&destination=waseda&key=AIzaSyCxDuj0SIOyIdwR3H05HrG0u5AkKaHKM9Y"*/);
                 URL u = new URL(urlStrBuilder.toString());
 
@@ -247,7 +266,46 @@ public final class HelloWorldControl extends ControlExtension {
             try {
                 distance = status.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONObject("distance").getString("text");
                 duration = status.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONObject("duration").getString("text");
-
+                String buf1 = status.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONArray("steps").getJSONObject(0).getString("html_instructions");
+                String buf2 = status.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONArray("steps").getJSONObject(1).getString("html_instructions");
+                dura_inst = status.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONArray("steps").getJSONObject(0).getJSONObject("distance").getString("text");
+                address = status.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getString("end_address");
+                String str1 = "";
+                String str2 = "";
+                int a=0;
+                for(int i = 0;i<buf1.length();i++){
+                    char ch = buf1.charAt(i);
+                    if(a == 0) {
+                        if (!((ch <= '\u007e') || (ch == '\u00a5') || (ch == '\u203e'))) {
+                            str1 += ch;
+                            a = 1;
+                        }
+                    }else{
+                        if(ch == '\u003c'){
+                            a=0;
+                            continue;
+                        }
+                        str1 += ch;
+                    }
+                }
+                a = 0;
+                for(int i = 0;i<buf2.length();i++){
+                    char ch = buf2.charAt(i);
+                    if(a == 0) {
+                        if (!((ch <= '\u007e') || (ch == '\u00a5') || (ch == '\u203e'))) {
+                            str2 += ch;
+                            a = 1;
+                        }
+                    }else{
+                        if(ch == '\u003c'){
+                            a = 0;
+                            continue;
+                        }
+                        str2 += ch;
+                    }
+                }
+                instruction1 = str1;
+                instruction2 = str2;
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -255,6 +313,7 @@ public final class HelloWorldControl extends ControlExtension {
 
 
         }
+
 
 
     }

@@ -137,7 +137,7 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gra
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/K/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/49f66bce3852a8ca067b8517ee78c75e/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/K/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/49f66bce3852a8ca067b8517ee78c75e/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:20:9-31
 	android:icon
 		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:19:9-38
 	android:allowBackup
@@ -153,7 +153,7 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/K/.gra
 activity#com.example.sony.smarteyeglass.extension.helloworld.HelloWorldActivity
 ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:28:9-35:20
 	android:label
-		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:30:13-62
+		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:30:13-35
 	android:name
 		ADDED from /Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/src/main/AndroidManifest.xml:29:13-98
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

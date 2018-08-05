@@ -7,28 +7,29 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:layout_width="265dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="目的地を入力"
         android:inputType="text" />
 
-
+<!--
     <TextView
-        android:id="@+id/text_view1"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="現在地の緯度:"
+        android:text=""
         android:textColor="#44f"
-        android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/text_view2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+-->
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_margin="20dp"
-        android:text="現在地の軽度:"
+        android:entries="@array/list"
+        android:text="手段"
         android:textColor="#44f"
         android:textSize="15sp" />
 

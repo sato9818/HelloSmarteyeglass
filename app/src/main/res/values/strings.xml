@@ -15,5 +15,10 @@
     
         <!-- Configuration title shown in preferences -->
     <string name="configuration_text">Hello World Activity</string>
+    <string-array name="list">
+        <item>徒歩</item>
+        <item>自転車</item>
+        <item>車</item>
+    </string-array>
     
 </resources>

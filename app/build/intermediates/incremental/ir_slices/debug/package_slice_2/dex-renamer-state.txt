@@ -1,4 +1,4 @@
-#Mon Jul 09 15:28:00 JST 2018
-base.0=/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/transforms/dexMerger/debug/18
+#Sun Aug 05 11:12:28 JST 2018
+base.0=/Users/K/Library/Android/sdk/add-ons/addon-sony_smarteyeglass_sdk-sony-19/samples/HelloWorld/app/build/intermediates/transforms/dexMerger/debug/33
 path.0=classes.dex
 renamed.0=classes.dex

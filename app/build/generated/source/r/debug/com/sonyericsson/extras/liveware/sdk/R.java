@@ -8,52 +8,52 @@ package com.sonyericsson.extras.liveware.sdk;
 
 public final class R {
     public static final class attr {
-        public static final int fontPath = 0x7f020085;
-        public static final int gravity = 0x7f020090;
-        public static final int template = 0x7f020126;
-        public static final int textArray = 0x7f020130;
-        public static final int textSize = 0x7f020133;
-        public static final int timeOffset = 0x7f02013c;
-        public static final int timeType = 0x7f02013d;
+        public static final int fontPath = 0x7f030085;
+        public static final int gravity = 0x7f030090;
+        public static final int template = 0x7f030126;
+        public static final int textArray = 0x7f030130;
+        public static final int textSize = 0x7f030133;
+        public static final int timeOffset = 0x7f03013c;
+        public static final int timeType = 0x7f03013d;
     }
     public static final class id {
-        public static final int am_pm = 0x7f070020;
-        public static final int constant = 0x7f070036;
-        public static final int days_of_month = 0x7f07003b;
-        public static final int days_of_month_digit1 = 0x7f07003c;
-        public static final int days_of_month_digit2 = 0x7f07003d;
-        public static final int days_of_week = 0x7f07003e;
-        public static final int days_of_year = 0x7f07003f;
-        public static final int days_of_year_digit1 = 0x7f070040;
-        public static final int days_of_year_digit2 = 0x7f070041;
-        public static final int days_of_year_digit3 = 0x7f070042;
-        public static final int hours = 0x7f070055;
-        public static final int hours_digit1 = 0x7f070056;
-        public static final int hours_digit2 = 0x7f070057;
-        public static final int hours_fine = 0x7f070058;
-        public static final int match_parent = 0x7f070068;
-        public static final int minutes = 0x7f07006c;
-        public static final int minutes_digit1 = 0x7f07006d;
-        public static final int minutes_digit2 = 0x7f07006e;
-        public static final int months = 0x7f07006f;
-        public static final int months_digit1 = 0x7f070070;
-        public static final int months_digit2 = 0x7f070071;
-        public static final int seconds = 0x7f070092;
-        public static final int seconds_digit1 = 0x7f070093;
-        public static final int seconds_digit2 = 0x7f070094;
-        public static final int years_digit1 = 0x7f0700ca;
-        public static final int years_digit2 = 0x7f0700cb;
-        public static final int years_digit3 = 0x7f0700cc;
-        public static final int years_digit4 = 0x7f0700cd;
+        public static final int am_pm = 0x7f080020;
+        public static final int constant = 0x7f080037;
+        public static final int days_of_month = 0x7f08003c;
+        public static final int days_of_month_digit1 = 0x7f08003d;
+        public static final int days_of_month_digit2 = 0x7f08003e;
+        public static final int days_of_week = 0x7f08003f;
+        public static final int days_of_year = 0x7f080040;
+        public static final int days_of_year_digit1 = 0x7f080041;
+        public static final int days_of_year_digit2 = 0x7f080042;
+        public static final int days_of_year_digit3 = 0x7f080043;
+        public static final int hours = 0x7f080056;
+        public static final int hours_digit1 = 0x7f080057;
+        public static final int hours_digit2 = 0x7f080058;
+        public static final int hours_fine = 0x7f080059;
+        public static final int match_parent = 0x7f080069;
+        public static final int minutes = 0x7f08006d;
+        public static final int minutes_digit1 = 0x7f08006e;
+        public static final int minutes_digit2 = 0x7f08006f;
+        public static final int months = 0x7f080070;
+        public static final int months_digit1 = 0x7f080071;
+        public static final int months_digit2 = 0x7f080072;
+        public static final int seconds = 0x7f080094;
+        public static final int seconds_digit1 = 0x7f080095;
+        public static final int seconds_digit2 = 0x7f080096;
+        public static final int years_digit1 = 0x7f0800ca;
+        public static final int years_digit2 = 0x7f0800cb;
+        public static final int years_digit3 = 0x7f0800cc;
+        public static final int years_digit4 = 0x7f0800cd;
     }
     public static final class string {
-        public static final int app_name = 0x7f0a001e;
+        public static final int app_name = 0x7f0b001e;
     }
     public static final class styleable {
-        public static final int[] TimeLayout = { 0x7f020090, 0x7f02013c };
+        public static final int[] TimeLayout = { 0x7f030090, 0x7f03013c };
         public static final int TimeLayout_gravity = 0;
         public static final int TimeLayout_timeOffset = 1;
-        public static final int[] TimeView = { 0x7f020085, 0x7f020126, 0x7f020130, 0x7f020133, 0x7f02013d };
+        public static final int[] TimeView = { 0x7f030085, 0x7f030126, 0x7f030130, 0x7f030133, 0x7f03013d };
         public static final int TimeView_fontPath = 0;
         public static final int TimeView_template = 1;
         public static final int TimeView_textArray = 2;
